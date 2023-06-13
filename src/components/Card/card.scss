@@ -1,0 +1,66 @@
+.card {
+    background-color: #F9F4EE;
+    &__title {
+        margin-left: 106px;
+        padding-top: 85px;
+        padding-bottom: 120px;
+    }
+    &__blogs {
+        margin-left: -8px;
+        margin-right: -8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px 0px;
+        .col-3 {
+            padding: 16px;
+        }
+    }
+    &__item {
+        transition: 0.4s ease;
+        cursor: pointer;
+        &:hover {
+            background: #F9F4EE;
+            box-shadow: 0px 10px 50px rgba(111, 95, 75, 0.2);
+            transform: translateY(-10px);
+        }
+    }
+    &__img {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &__body {
+        padding: 16px;
+    }
+    &__money {
+        margin: 10px 0px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    &__footer {
+        padding-top: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer__btn {
+        padding: 18px 42px;
+        border: 1px solid #B8AA9F;
+        color: #886F61;
+    }
+    &__icon {
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #B8AA9F;
+    }
+    &__btn {
+        padding-top: 64px;
+        padding-bottom: 318px;
+        display: flex;
+        justify-content: center;
+    }
+}

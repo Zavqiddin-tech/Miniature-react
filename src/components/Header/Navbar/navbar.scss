@@ -1,0 +1,40 @@
+@import '../../../assets/mixin/var.scss';
+
+.nav {
+    padding-top: 22px;
+    &__logo {
+        cursor: pointer;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__lists {
+        display: flex;
+        gap: 32px;
+        li a {
+            color: #fff;
+            white-space: nowrap;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+    }
+    &__down-btn {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+        img {
+            margin-left: 7px;
+        }
+    }
+    &__icon {
+        cursor: pointer;
+    }
+}

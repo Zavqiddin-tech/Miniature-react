@@ -1,0 +1,144 @@
+@import './assets/mixin/var.scss';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Unbounded', cursive; */
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+.b {
+  border: 1px solid red;
+}
+.App {
+  max-width: 1920px;
+  margin: auto;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+  padding: 0px 5px 0px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.btn {
+  padding: 12px 46px;
+}
+
+.btn.red {
+  background-color: $red;
+  border: none;
+}
+.btn.orange {
+  color: $orange;
+  border: 1px solid $orange;
+}
+.btn.yellow {
+        border: 1px solid #886F61;
+        color: #886F61;
+}
+
+.money {
+  padding-top: 32px;
+  font-size: 24px;
+  line-height: 36px;
+  color: $yellow;
+}
+.money.orange {
+  color: $orange;
+}
+
+.btn__groups {
+  display: flex;
+  gap: 20px;
+  padding-top: 32px;
+}
+
+
+
+
+
+
+.title {
+  font-size: 32px;
+  color: $yellow;
+  line-height: 48px;
+  font-family: 'Unbounded', cursive;
+}
+.title.white {
+  color: #fff;
+}
+.title.orange {
+  color: $orange;
+}
+.title.bold {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: $orange;
+}
+.title.medium {
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: $orange;
+}
+
+
+
+.text.white {
+  padding-top: 32px;
+  color: #fff;
+  line-height: 150%;
+}
+.text.orange {
+  color: $orange;
+}
+
+
+
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-6 {
+  width: 50%;
+}
+
+
+
+
+

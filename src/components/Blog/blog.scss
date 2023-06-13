@@ -1,0 +1,23 @@
+.blog {
+    padding-top: 170px;
+    background-color: #F9F4EE;
+    &__boxes {
+        display: flex;
+        flex-wrap: wrap;
+        .col-6 {
+            padding-bottom: 140px;
+        }
+    }
+    &__info {
+        padding-top: 100px;
+        padding-right: 50px;
+        .title {
+            padding-bottom: 32px;
+        }
+    }
+    &__title {
+        padding-bottom: 64px;
+        padding-right: 200px;
+        text-align: right;
+    }
+}

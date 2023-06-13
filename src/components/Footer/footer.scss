@@ -1,0 +1,105 @@
+.footer {
+    background: linear-gradient(100deg, rgba(92, 78, 70), 80%, transparent), url('../../assets/images/img/footer-bg.png');
+    // background: linear-gradient(150deg, rgba(0,0,0) 70%, transparent), url('../../assets/images/img/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__contact {
+        display: flex;
+        padding-bottom: 122px;
+    }
+    &__top {
+        padding-top: 64px;
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav {
+        display: flex;
+        gap: 32px;
+        a {
+            color: #fff;
+        }
+    }
+    &__title {
+        font-size: 24px;
+        font-family: 'Unbounded', cursive;
+        color: #fff;
+        span {
+            color: #FFD6A5;
+        }
+        &.tell {
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+    }
+    &__text {
+        padding: 24px 0px;
+        color: #fff;
+    }
+    &__icons {
+        padding-top: 24px;
+        display: flex;
+        gap: 12px;
+    }
+    &__icon {
+        width: 48px;
+        height: 48px;
+        padding: 8px;
+        border: 1px solid #826B5E;
+        cursor: pointer;
+        &-box {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #886F61;
+        }
+    }
+     
+    &__tell {
+        color: #fff;
+    }
+    &__btn {
+        width: 100%;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 15px 32px;
+        border: none;
+        border-bottom: 1px solid #DFC2A3;
+        background-color: rgba(255, 255, 255, 0.3);
+        outline: none;
+        &::placeholder {
+            color: #ffffff;
+        }
+    }
+    input {
+        margin-top: 24px;
+    }
+    textarea {
+        margin-top: 20px;
+        margin-bottom: 28px;
+    }
+    &__bottom {
+        background-color: #886F61;
+        .container {
+            padding: 15px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        &-left {
+            color: #fff;
+        }
+        &-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: #fff;
+        }
+    }
+}

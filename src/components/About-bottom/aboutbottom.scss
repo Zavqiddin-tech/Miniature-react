@@ -1,0 +1,13 @@
+@import '../../assets//mixin/var.scss';
+
+.about{
+    &__bottom {
+        background-color: $orange;
+    }
+    &__b {
+        display: flex;
+        .about__left {
+            padding-left: 130px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.header {
+    &__blogs {
+        display: flex;
+    }
+    &__left {
+       min-width: 50%;
+       padding-top: 94px;
+       text-align: center;
+    }
+    &__right {
+        width: 50%;
+        padding-top: 165px;
+        .title {
+            width: 300px;
+        }
+    }
+}
